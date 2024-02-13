@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "eksterrabucket"
+    bucket = "greenside.eksterrabucket"
     key    = "backend/ToDo-App.tfstate"
-    region = "us-east-1"
-    dynamodb_table = "dynamoDB-terra"
+    region = "us-west-1"
+    dynamodb_table = "dynaDB-terra"
   }
 }
